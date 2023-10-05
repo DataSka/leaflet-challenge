@@ -8,3 +8,22 @@ body,
 html {
   height: 100%;
 }
+
+#legend {
+  z-index: 10000;
+  position: fixed;
+  background: white;
+  width: 100px;
+  bottom: 100px;
+  right: 100px;
+}
+
+.legendSquare {
+  width: 15px;
+  height: 15px;
+  
+}
+
+#legendTable {
+  padding: 10px;
+}

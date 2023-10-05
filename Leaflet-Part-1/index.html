@@ -9,8 +9,7 @@
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin="" />
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
@@ -19,12 +18,65 @@
 <body>
 
   <!-- The div that holds our map -->
-  <div id="map"></div>
+  <div id="map">
+    <div id="legend">
+      <table id="legendTable">
+        <tr>
+          <td>
+            <div style="background: #00FF00" class="legendSquare"></div>
+          </td>
+          <td>
+            < 1 </td>
+        </tr>
+        <tr>
+          <td>
+            <div style="background: #FFFF00" class="legendSquare"></div>
+          </td>
+          <td>
+            1
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div style="background: #FFCC00" class="legendSquare"></div>
+          </td>
+          <td>
+            2
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div style="background: #FF9900" class="legendSquare"></div>
+          </td>
+          <td>
+            3
+          </td>
+        </tr>
+        <td>
+          <div style="background: #FF6600" class="legendSquare"></div>
+        </td>
+        <td>
+          4
+        </td>
+        </tr>
+        </tr>
+        <td>
+          <div style="background: #FF0000" class="legendSquare"></div>
+        </td>
+        <td>
+          5+
+        </td>
+        </tr>
+      </table>
+
+    </div>
+
+  </div>
+  </div>
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <!-- D3 JavaScript -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <!-- Our JavaScript -->
